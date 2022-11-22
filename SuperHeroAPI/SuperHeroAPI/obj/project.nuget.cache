@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "joHYs2nH2awDtvSLreMkCyUFEzNhHBSgYEYXCbrT64ChSuyuh3VCDwpROo5ADCnoo1OgbkoyjH32+hPJD1t53g==",
+  "dgSpecHash": "n15XdOC/CoGrcg3K5p24adVEcl7aKJPTbc/oK+2fviHy0TAFdc/BfljvOawaSRPm6HYqQyYewoh1iEP8Q8wKAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\WebAPi\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Documents\\API\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

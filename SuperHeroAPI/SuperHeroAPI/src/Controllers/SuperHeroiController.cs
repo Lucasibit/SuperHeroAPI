@@ -5,12 +5,12 @@ using SuperHeroAPI.src.Models;
 
 namespace SuperHeroAPI.src.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class SuperHeroiController : ControllerBase
     {
         private static List<SuperHeroi> herois = new List<SuperHeroi>{
-            
+
             new SuperHeroi
                 {
                     Id=2,
@@ -19,6 +19,15 @@ namespace SuperHeroAPI.src.Controllers
                     UltimoNome="Stark",
                     CidadeNatal="Nova York"
                 },
+
+            new SuperHeroi
+            {
+                Id=3,
+                Nome="Homem de Ferro",
+                    PrimeiroNome="Tony",
+                    UltimoNome="Stark",
+                    CidadeNatal="Nova York"
+            }
         };
         private readonly HeroiContext context;
 
@@ -30,7 +39,7 @@ namespace SuperHeroAPI.src.Controllers
         [HttpGet]
         public async Task<ActionResult<List<SuperHeroi>>> Get()
         {
-            return Ok(context.SuperHerois.ToList());
+            return Ok(herois);
         }
 
         [HttpGet("{id}")]
@@ -48,13 +57,13 @@ namespace SuperHeroAPI.src.Controllers
         [HttpPost]
         public async Task<ActionResult<List<SuperHeroi>>> AddHeroi(SuperHeroi heroi)
         {
-            
+
             context.SuperHerois.Add(heroi);
             await context.SaveChangesAsync();
             return Ok("Herói adicionado com sucesso!");
-            
+
         }
-        
+
         [HttpPut]
         public async Task<ActionResult<SuperHeroi>> UpdateHeroi(SuperHeroi request)
         {

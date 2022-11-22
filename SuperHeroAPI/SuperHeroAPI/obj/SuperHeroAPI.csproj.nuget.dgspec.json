@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\WebAPi\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
+    "C:\\Users\\lucas\\Documents\\API\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\WebAPi\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {
+    "C:\\Users\\lucas\\Documents\\API\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\WebAPi\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\Documents\\API\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
         "projectName": "SuperHeroAPI",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\WebAPi\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectPath": "C:\\Users\\lucas\\Documents\\API\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\WebAPi\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\Documents\\API\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
